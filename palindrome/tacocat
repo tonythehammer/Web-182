@@ -1,0 +1,12 @@
+Taco cat
+
+example of single page processing
+
+saving a salamander you update
+
+if (post request){
+  handle the form
+  processing - update and save the salamander info.
+}  else //get request{
+    display the form base on the id
+  }

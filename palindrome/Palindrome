@@ -1,0 +1,14 @@
+Palindrome
+
+rules
+1. eliminate spaces, common punctuation, capitalization.
+
+Taco cat
+madam i'm adam
+
+Q is this a Palindrome
+
+get rid of the space.{
+  
+}
+
