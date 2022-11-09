@@ -7,6 +7,6 @@
 
 // SiteGround
 define("DB_SERVER", "localhost");
-define("DB_USER", "webuser");
-define("DB_PASS", "penury4bulletin4naivety8PALPABLE");
-define("DB_NAME", "bird");
+define("DB_USER", "anthony");
+define("DB_PASS", "Awh28806AWH!");
+define("DB_NAME", "sas");
