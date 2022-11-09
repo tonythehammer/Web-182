@@ -24,13 +24,20 @@ h1 a {
 }
 
 table, th, td {
-  border: 1px solid red;
+  border: 1px double black;
 }
 
 th {
-  background-color: rgb(121, 121, 245);
+  color: #fff;
 }
 
 td {
-  background-color: rgba(241, 121, 121, 0.979);
+ color: aqua;
+ background-color: black;
+ opacity: .5;
+}
+
+table a {
+  text-decoration: none;
+  color:aquamarine;
 }
