@@ -1,20 +1,14 @@
-<?php require_once('../../private/initialize.php'); 
+<?php require_once('../../private/initialize.php');
 
-// fancy if...else
-
-if(!empty($_GET['id'])) {
-    $id = $_GET['id'];
-} else {
-    $id = 1;
-}
-$id = $_GET['id'] ?? '1'; 
-$page_title = 'Salamander Details';
+$id = $_GET['id'] ?? '1'; // PHP > 7.0
+$page_title = 'View Salamander';
 include(SHARED_PATH . '/salamander-header.php'); 
 
 ?>
 
-<h2>Salamander Details</h2>
-<p> Page ID: <?= h($id); ?></p>
-<p><a href="<?= url_for('/salamanders/index.php'); ?>">&laquo; Back to Salamander List</a></p>
+
+  <a href="<?= url_for('/salamanders/index.php'); ?>">&laquo; Back to List</a>
+
+   <p> Page ID: <?= h($id); ?> </p>
 
 <?php include(SHARED_PATH . '/salamander-footer.php'); ?>
